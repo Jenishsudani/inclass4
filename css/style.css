@@ -1,0 +1,51 @@
+/*Jenish sudani 7777777*/
+body{
+    height : 100vh;
+    width : 100vw;
+    background-color: hsla(281, 69%, 42%, 0.3);
+    font : normal normal normal 12px/1.5 verdana, Arial, Helvetica, sans-serif; 
+    padding: 2em;
+}
+h2{
+
+    color: #fc0;
+    font-size: 2rem;
+}
+header{
+    background-color: hsl(200, 87%, 65%);
+}
+ main{
+    float: left;
+    width: 65vw;
+    background-color: hsl(132, 87%, 65%);
+
+}
+aside{
+    float: right;
+    width: 25vw;
+    background-color: hsl(0, 87%, 65%);
+}
+footer{
+    clear: both;
+    background-color: hsl(89, 87%, 65%);
+}
+.structural{
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+} 
+#paral{
+    color: rgb(107, 7, 49);
+}
+#para2{
+    color: rgb(141, 16, 208);
+}
+ a :hover{
+    color : #09c
+}
+footer p{
+    font-size: .75em;
+}
+/*
+header{
+    background-color: 
