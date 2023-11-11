@@ -1,51 +1,130 @@
-/*Jenish sudani 7777777*/
-body{
-    height : 100vh;
-    width : 100vw;
-    background-color: hsla(281, 69%, 42%, 0.3);
-    font : normal normal normal 12px/1.5 verdana, Arial, Helvetica, sans-serif; 
-    padding: 2em;
+/*Student Name:jenish kalpeshbhai sudani
+/* Student Number:8916794 */
+body
+{
+ height:100vh;
+ width:100vw;
+ background-color: hsla(280,20%, 70%, 0.3);
+ font:normal normal normal 12px/1.5 verdana,Arial,Helvetica,sans-serif;
+ padding:2em;
 }
-h2{
+h2
+{
+    color: #fc9;
+    font-size:2rem;
+}
+header
+{
+    background-color: hsl(248, 81%, 47%);
+}
+main
+{
+    width:65vw;
+    float:left;
+    background-color: hsl(136, 81%, 55%);
+    
+}
 
-    color: #fc0;
-    font-size: 2rem;
-}
-header{
-    background-color: hsl(200, 87%, 65%);
-}
- main{
-    float: left;
-    width: 65vw;
-    background-color: hsl(132, 87%, 65%);
-
-}
-aside{
+aside
+{
     float: right;
-    width: 25vw;
-    background-color: hsl(0, 87%, 65%);
+    width:25vw;
+    background-color: hsl(168, 82%, 34%);
+    
 }
-footer{
-    clear: both;
-    background-color: hsl(89, 87%, 65%);
+footer
+{
+    clear:both;
+    background-color: hsl(202, 70%, 28%);
 }
-.structural{
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid black;
-} 
-#paral{
-    color: rgb(107, 7, 49);
+
+.structural
+{
+padding:10px;
+margin:10px;
+border: 2px solid black;
 }
-#para2{
-    color: rgb(141, 16, 208);
+#para1
+{
+    color:rgb(56, 144, 112);
 }
- a :hover{
-    color : #09c
+#para2
+{
+    color:rgb(189, 11, 31);
 }
-footer p{
-    font-size: .75em;
+aside ul li a:hover
+{
+    color:blue;
 }
-/*
-header{
-    background-color: 
+footer p
+{
+font-size: .75em;
+}
+h1{
+color:red ; 
+font-size: 20px;
+}
+aside ul
+{
+
+    list-style-type: square;
+}
+ li a
+{
+    color:rgba(39,41,1,0.8);
+    line-height: 2em;
+}
+nav ul li
+{
+    display: inline;
+    list-style-type: none;
+    
+}
+nav ul li a
+{
+    border:2px solid indigo;
+    color:indigo;
+    background-color: cornsilk;
+    text-decoration: none;
+    padding: 5px;
+    
+}
+nav ul li a:hover
+{
+    border: 2px solid cornsilk;
+    background-color: indigo;
+    color:cornsilk;
+}
+form
+{
+    border: 5px dashed black;
+    padding: 5px;
+}
+input[type="text"], input[type="email"],input[type="submit"],select,option
+{
+width: 50%;
+display: block;
+height: 2em;
+}
+
+input[type="radio"],input[type="checkbox"]
+{
+    height: 2em;
+    width:2em;;
+}
+
+textarea
+{
+    width: 50%;
+    display: block;
+}
+fieldset
+{
+    border:none;
+}
+select,option,label,legend,input[type="submit"]
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-variant: small-caps;
+}
